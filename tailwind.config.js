@@ -4,7 +4,17 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        'mezo-orange': '#eb5e55',
+      },
+      color: {
+        'mezo-dark': '#3a3335',
+        'mezo-red': '#d81e5b',
+        'mezo-white': '#fdf0d5',
+        'mezo-blue': '#c6d8d3',
+      },
+    },
   },
   plugins: [],
 };
