@@ -5,19 +5,12 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className="container">
       {/* Header */}
-      <header className="pt-5 text-white px-8 flex flex-row justify-between">
-        <div className="logo">
-          <img
-            className="w-10 h-10"
-            layout="fill"
-            src="/images/Mezo Logo Resize.png"
-            alt="Logo Image"
-          />
-        </div>
+      <header className="pt-5 text-white px-8 flex flex-row items-center justify-between">
+        <div className="logo">Mezo Management</div>
         <div>
-          <ul className="inline-flex space-x-2">
+          <ul className="inline-flex space-x-5">
             <li>Home</li>
             <li>Partners</li>
             <li>Discord</li>
@@ -26,11 +19,12 @@ export default function Home() {
         </div>
       </header>
 
-      <div>
-        <h2 class="text-center">
+      {/* Carousel */}
+      <div className="mt-8 ">
+        <h2 className="text-center fontsize text-3xl font-semibold text-black-600">
           It's not just any Management
           <br />
-          It's <span>Mezo Management</span>
+          It's <span className="text-white">Mezo Management</span>
         </h2>
       </div>
     </div>
