@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Fragment } from "react";
 
 import styles from "../styles/Home.module.css";
@@ -22,9 +21,9 @@ export default function Home() {
       {/* Carousel */}
       <div className="mt-8 ">
         <h2 className="text-center fontsize text-3xl font-semibold text-black-600">
-          It's not just any Management
+          It&lsquo;s not just any Management
           <br />
-          It's <span className="text-white">Mezo Management</span>
+          It&lsquo;s <span className="text-white">Mezo Management</span>
         </h2>
       </div>
     </div>
