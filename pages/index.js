@@ -18,7 +18,6 @@ export default function Home() {
         </div>
         <div>
           <ul className="inline-flex space-x-5">
-            <li>Home</li>
             <li>Partners</li>
             <li>Discord</li>
             <li>About</li>
