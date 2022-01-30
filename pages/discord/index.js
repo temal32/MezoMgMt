@@ -1,5 +1,5 @@
 function DiscordPage() {
-    return <div>Discord Page</div>;
+    return <div>Test</div>;
 }
 
 export default DiscordPage;
