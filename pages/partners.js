@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Fragment } from "react";
-import { partners } from '../public/constants/partnerlist';
+import { companys } from "../public/constants/companylist";
+import { creators } from '../public/constants/creatorlist';
 
 
 //import styles from "../styles/Partners.module.css";
@@ -27,12 +28,16 @@ export default function Partners() {
       </div>
     </header>
 
-       {/* Partners */}
+       {/* creators */}
+       <h1>Partners</h1>
       <div>
-      {partners.map(({name}) => (
+      {creators.map(({name}) => (
         <h1>{name}</h1>
       ))}
         </div>
+         {companys.map(({name, image, website, description}) => (
+           <img src={image}/>
+         ))}
 
     </div>
 
