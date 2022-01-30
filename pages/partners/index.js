@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Header from "../../components/layout/header";
+import Header from "../../components/layout/Header";
 
 const creatorList = [
     {
@@ -51,7 +51,7 @@ export default function Partners() {
                 ))}
             </div>
             {companyList.map(({ name, image, website, description }) => (
-                <img key={name} src={image} />
+                <Image alt={description} key={name} src={image} width={400} height={400} />
             ))}
         </div>
     );
