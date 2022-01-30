@@ -47,11 +47,11 @@ export default function Partners() {
             <h1>Partners</h1>
             <div>
                 {creatorList.map(({ name }) => (
-                    <h1>{name}</h1>
+                    <h1 key={name} >{name}</h1>
                 ))}
             </div>
             {companyList.map(({ name, image, website, description }) => (
-                <img src={image} />
+                <img key={name} src={image} />
             ))}
         </div>
     );
