@@ -1,39 +1,28 @@
+import Head from "next/head";
 import Image from "next/image";
-import { Fragment } from "react";
+import Header from "../components/layout/header";
 
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className="container text-mezo-white">
+    <div className=" text-mezo-white">
+      <Head>
+        <title>Mezo Management</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="shortcut icon" href="/images/mezo-logo-resize.png" />
+      </Head>
       {/* Header */}
-      <header className="pt-5 text-mezo-white flex flex-row items-center justify-between">
-        <div className="ml-6">
-          <Image
-            src="/images/Mezo Logo Resize.png"
-            alt="Mezo Logo>"
-            width={50}
-            height={50}
-          />
-        </div>
-        <div>
-          <ul className="inline-flex space-x-5">
-            <li>Partners</li>
-            <li>Discord</li>
-            <li>About</li>
-          </ul>
-        </div>
-      </header>
-
+      <Header />
       {/* Carousel */}
-      <div className="m-40 p-10 ">
-        <h2 className="text-center text-4xl font-bold ">
+      <div className=" ">
+        <div className="text-center text-2xl font-bold ">
           <h1 className="text-mezo-dark mb-3">
             It&lsquo;s not just any Management
           </h1>
           <span className="text-mezo-dark">It&lsquo;s</span>
           <span className=""> Mezo Management</span>
-        </h2>
+        </div>
       </div>
     </div>
   );
