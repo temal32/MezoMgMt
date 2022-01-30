@@ -4,32 +4,30 @@ import Header from "../../components/layout/header";
 
 const creatorList = [
     {
-
         name: "Cluwey",
-        description: "My name is Cluwey, I'm 17 years old. I do discord trolling videos on YouTube. I try to entertain people and make them happy with my videos.",
+        description:
+            "My name is Cluwey, I'm 17 years old. I do discord trolling videos on YouTube. I try to entertain people and make them happy with my videos.",
         link: "https://bit.ly/cluweymgmt",
-        image: ""
-
+        image: "",
     },
     {
         name: "FrenchyFry3",
-        description: "My name is Cluwey, I'm 17 years old. I do discord trolling videos on YouTube. I try to entertain people and make them happy with my videos.",
+        description:
+            "My name is Cluwey, I'm 17 years old. I do discord trolling videos on YouTube. I try to entertain people and make them happy with my videos.",
         link: "https://bit.ly/cluweymgmt",
-        image: ""
+        image: "",
     },
-
 ];
 
 const companyList = [
     {
-
         name: "Salad",
-        description: "Salad makes it easy for anyone to make money in their sleep. They use crypto currency mining to turn idle time into real money. If you want more info about salad make sure to click the link down below.",
+        description:
+            "Salad makes it easy for anyone to make money in their sleep. They use crypto currency mining to turn idle time into real money. If you want more info about salad make sure to click the link down below.",
         website: "https://bit.ly/saladmezo",
-        image: "https://cdn.discordapp.com/attachments/697180189729226814/734781267509248111/favicon.512x512.png"
-
+        image:
+            "https://cdn.discordapp.com/attachments/697180189729226814/734781267509248111/favicon.512x512.png",
     },
-
 ];
 //import styles from "../styles/Partners.module.css";
 
@@ -48,15 +46,13 @@ export default function Partners() {
             {/* creators */}
             <h1>Partners</h1>
             <div>
-                {creatorList.map(({ name }) => (
+                {creators.map(({ name }) => (
                     <h1>{name}</h1>
                 ))}
             </div>
-            {companyList.map(({ name, image, website, description }) => (
+            {companys.map(({ name, image, website, description }) => (
                 <img src={image} />
             ))}
-
         </div>
-
-    )
+    );
 }
