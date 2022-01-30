@@ -1,7 +1,5 @@
-import { Redirect } from "react-router-dom"
-
 function DiscordPage() {
-    return <Redirect to="https://discord.gg/V9ujzCUDzK" />
+    return <div>Test</div>;
 }
 
 export default DiscordPage;
