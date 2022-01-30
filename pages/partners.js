@@ -32,11 +32,15 @@ export default function Partners() {
        <h1>Partners</h1>
       <div>
       {creators.map(({name}) => (
-        <h1>{name}</h1>
+        <div key={creators}>
+       <h1>{name}</h1>
+       </div>
       ))}
         </div>
          {companys.map(({name, image, website, description}) => (
-           <img src={image}/>
+           <div key={companys}>
+           <Image src={image} width={512} height={512} alt=""/>
+           </div>
          ))}
 
     </div>
