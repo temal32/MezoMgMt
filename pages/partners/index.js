@@ -46,11 +46,11 @@ export default function Partners() {
             {/* creators */}
             <h1>Partners</h1>
             <div>
-                {creators.map(({ name }) => (
+                {creatorList.map(({ name }) => (
                     <h1>{name}</h1>
                 ))}
             </div>
-            {companys.map(({ name, image, website, description }) => (
+            {companyList.map(({ name, image, website, description }) => (
                 <img src={image} />
             ))}
         </div>
