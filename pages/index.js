@@ -30,11 +30,11 @@ export default function Home() {
         <div className="text-black text-center sm:text-left 2xl:text-4xl lg:col-start-2 lg:col-span-3 xl:lg:col-start-1 xl:col-span-4 xl:mx-8">
           <h1 className="font-bold mb-2">Info.</h1>
           <span className="font-normal ">
-            Here at Mezo Management, we've created a platform that links content
-            creators and companies. We are a company that uses the power of
-            social media to provide creators for you and your company. We worked
-            with a variety of creators in the past, providing them great deals
-            with our partnered company Salad Technologies.
+            Here at Mezo Management, we&lsquo;ve created a platform that links
+            content creators and companies. We are a company that uses the power
+            of social media to provide creators for you and your company. We
+            worked with a variety of creators in the past, providing them great
+            deals with our partnered company Salad Technologies.
           </span>
         </div>
         <div className="relative w-44 h-44 2xl:w-80 2xl:h-80 lg:col-start-6  lg:col-span-1  xl:col-start-6  xl:col-span-2 xl:mx-8">
