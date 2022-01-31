@@ -13,7 +13,7 @@ const Header = (props) => {
         />
       </div>
 
-      <nav className="inline-flex space-x-2 2xl:space-x-4 xl:text-xl 2xl:text-3xl">
+      <nav className="inline-flex space-x-2 2xl:space-x-4 lg:text-xs xl:text-sm 2xl:text-lg">
         <Link href="/">
           <a className="lg:hover:text-black lg:hover:bg-gray-100 lg:px-3 lg:py-2 lg:rounded-md  font-medium">
             Home
