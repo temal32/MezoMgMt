@@ -27,17 +27,17 @@ export default function Home() {
       {/* Info Section */}
       <div className="mt-10 sm:mt-20 mx-auto px-4 sm:px-8 space-y-2 grid sm:grid-cols-2 lg:grid-cols-7 justify-items-center items-center">
         <div className="text-black text-center sm:text-left 2xl:text-3xl lg:col-start-2 lg:col-span-3 xl:lg:col-start-1 xl:col-span-4 xl:mx-8">
-          <h1 className="text-2xl sm:text-3xl 2xl:text-6xl text-black    font-bold mb-2">
+          <h1 className="text-2xl sm:text-3xl 2xl:text-4xl text-black    font-bold mb-2">
             Info.
           </h1>
           <div className=" space-y-2 px-2 sm:px-0">
-            <h1 className="font-normal  text  xl:text-1xl">
+            <h1 className="font-normal  2xl:text-2xl">
               Here at Mezo Management, we&lsquo;ve created a platform that links
               content creators and companies. We are a company that uses the
               power of social media to provide creators for you and your
               company.
             </h1>
-            <h1 className="font-normal mt-4 text  xl:text-1xl">
+            <h1 className="font-normal mt-4 2xl:text-2xl">
               We worked with a variety of creators in the past, providing them
               great deals with our partnered company Salad Technologies.
             </h1>
