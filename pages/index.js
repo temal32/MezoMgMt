@@ -31,13 +31,13 @@ export default function Home() {
             Info.
           </h1>
           <div className=" space-y-2 px-2 sm:px-0">
-            <h1 className="font-normal text  xl:text-1xl">
+            <h1 className="font-normal  text  xl:text-1xl">
               Here at Mezo Management, we&lsquo;ve created a platform that links
               content creators and companies. We are a company that uses the
               power of social media to provide creators for you and your
               company.
             </h1>
-            <h1 className="font-normal text  xl:text-1xl">
+            <h1 className="font-normal mt-4 text  xl:text-1xl">
               We worked with a variety of creators in the past, providing them
               great deals with our partnered company Salad Technologies.
             </h1>
@@ -56,22 +56,22 @@ export default function Home() {
         <h2 className="sm:text-2xl text-black font-bold text-center mt-8 sm:mt-24 mb-2 sm:mb-8 ">
           FAQ&lsquo;s
         </h2>
-        <div className="px-5 max-w-sm mx-auto space-y-2 ">
+        <div className="px-5 sm:px-0 max-w-sm xl:max-w-xl 2xl:max-w-2xl mx-auto space-y-2 ">
           <details className="">
-            <summary className="text-black font-bold">
+            <summary className="text-black 2xl:text-2xl font-bold">
               What is Mezo Management &#63;
             </summary>
-            <p className="p-2 text-black">
+            <p className="p-2 2xl:text-2xl text-black">
               At Mezo Management, we bridge the gap between brands and content
               creators and help brands and creators alike find quality
               partnerships.
             </p>
           </details>
           <details className="">
-            <summary className="text-black font-bold">
+            <summary className="text-black 2xl:text-2xl font-bold">
               Why Mezo Management &#63;
             </summary>
-            <p className="p-2 text-black">
+            <p className="p-2 2xl:text-2xl text-black">
               At Mezo Management we only partner with creators and
               company&lsquo;s that we ourselves have verified and are 100%
               legitimate. We always deliver quality over quantity. We only
