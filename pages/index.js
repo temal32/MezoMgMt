@@ -15,7 +15,7 @@ export default function Home() {
       {/* Header */}
       <Header />
       {/* Carousel */}
-      <div className="mx-auto p-4 my-8 sm:my-12 md:my-14 xl:my-24 2xl:my-32">
+      <div className="mx-auto p-4 my-8 sm:my-16 md:my-20 xl:my-40 2xl:my-72">
         <div className="text-center text-2xl xl:text-3xl 2xl:text-6xl font-bold ">
           <h1 className="text-mezo-dark mb-3">
             It&lsquo;s not just any Management
@@ -25,11 +25,11 @@ export default function Home() {
         </div>
       </div>
       {/* Info Section */}
-      <div className="mt-10 sm:mt-20 mx-auto px-4 sm:px-8 space-y-2 grid sm:grid-cols-2 lg:grid-cols-7 justify-items-center items-center">
+      <h1 className="text-2xl text-center sm:text-3xl 2xl:text-4xl text-black font-bold">
+        Info.
+      </h1>
+      <div className="mt-6 sm:mt-8 2xl:mt-4 mx-auto px-4 sm:px-8 space-y-2 grid sm:grid-cols-2 lg:grid-cols-7 justify-items-center items-center">
         <div className="text-black text-center sm:text-left 2xl:text-3xl lg:col-start-2 lg:col-span-3 xl:lg:col-start-1 xl:col-span-4 xl:mx-8">
-          <h1 className="text-2xl sm:text-3xl 2xl:text-4xl text-black    font-bold mb-2">
-            Info.
-          </h1>
           <div className=" space-y-2 px-2 sm:px-0">
             <h1 className="font-normal  2xl:text-2xl">
               Here at Mezo Management, we&lsquo;ve created a platform that links
