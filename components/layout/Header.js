@@ -4,25 +4,27 @@ import Link from "next/link";
 
 const Header = (props) => {
   return (
-    <header className="m-2 text-mezo-white flex justify-between items-center">
-      <Image
-        src="/images/mezo-logo-resize.png"
-        alt="Mezo Logo>"
-        width={50}
-        height={50}
-      />
-      <nav className="inline-flex space-x-2">
+    <header className="m-3 md:m-4 2xl:mt-6 text-mezo-white  flex justify-between items-center">
+      <div className="relative w-12 h-12 2xl:w-16 2xl:h-16">
+        <Image
+          src="/images/mezo-logo-resize.png"
+          alt="Mezo Logo>"
+          layout="fill"
+        />
+      </div>
+
+      <nav className="inline-flex space-x-2 2xl:space-x-4 xl:text-xl 2xl:text-3xl">
         <Link href="/">
-          <a>Home</a>
+          <a className="hover:font-bold hover:border-b-2">Home</a>
         </Link>
         <Link href="/partners">
-          <a>Partners</a>
+          <a className="hover:font-bold hover:border-b-2">Partners</a>
         </Link>
         <Link href="/discord">
-          <a>Discord</a>
+          <a className="hover:font-bold hover:border-b-2">Discord</a>
         </Link>
         <Link href="/about">
-          <a> About</a>
+          <a className="hover:font-bold hover:border-b-2"> About</a>
         </Link>
       </nav>
     </header>
