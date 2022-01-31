@@ -53,8 +53,8 @@ export default function Home() {
       </div>
       {/* Faq */}
       <div className="mx-auto my-5 sm:my-10">
-        <h2 class="sm:text-2xl text-black font-bold text-center mt-8 sm:mt-24 mb-2 sm:mb-8 ">
-          FAQ's
+        <h2 className="sm:text-2xl text-black font-bold text-center mt-8 sm:mt-24 mb-2 sm:mb-8 ">
+          FAQ&lsquo;s
         </h2>
         <div className="px-5 max-w-sm mx-auto space-y-2 ">
           <details className="">
@@ -72,10 +72,10 @@ export default function Home() {
               Why Mezo Management &#63;
             </summary>
             <p className="p-2 text-black">
-              At Mezo Management we only partner with creators and company's
-              that we ourselves have verified and are 100% legitimate. We always
-              deliver quality over quantity. We only promote products with
-              creators we believe in as a brand.
+              At Mezo Management we only partner with creators and
+              company&lsquo;s that we ourselves have verified and are 100%
+              legitimate. We always deliver quality over quantity. We only
+              promote products with creators we believe in as a brand.
             </p>
           </details>
         </div>
