@@ -15,7 +15,7 @@ export default function Home() {
       {/* Header */}
       <Header />
       {/* Carousel */}
-      <div className="mx-auto p-4 my-8 sm:my-16 md:my-20 xl:my-40 2xl:my-72">
+      <div className="mx-auto p-4 my-8 sm:my-16 md:my-20 xl:my-60 2xl:my-96">
         <div className="text-center text-2xl xl:text-3xl 2xl:text-6xl font-bold ">
           <h1 className="text-mezo-dark mb-3">
             It&lsquo;s not just any Management
