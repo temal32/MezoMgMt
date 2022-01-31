@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className="container mx-auto text-mezo-white">
+    <div className=" mx-auto text-mezo-white">
       <Head>
         <title>Mezo Management | Home</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
