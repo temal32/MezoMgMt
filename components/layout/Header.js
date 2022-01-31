@@ -15,22 +15,22 @@ const Header = (props) => {
 
       <nav className="inline-flex space-x-2 2xl:space-x-4 xl:text-xl 2xl:text-3xl">
         <Link href="/">
-          <a className="hover:text-black hover:bg-gray-100 sm:px-3 sm:py-2 sm:rounded-md  font-medium">
+          <a className="lg:hover:text-black lg:hover:bg-gray-100 lg:px-3 lg:py-2 lg:rounded-md  font-medium">
             Home
           </a>
         </Link>
         <Link href="/partners">
-          <a className="hover:text-black hover:bg-gray-100 sm:px-3 sm:py-2 sm:rounded-md  font-medium">
+          <a className="lg:hover:text-black lg:hover:bg-gray-100 lg:px-3 lg:py-2 lg:rounded-md  font-medium">
             Partners
           </a>
         </Link>
         <Link href="/discord">
-          <a className="hover:text-black hover:bg-gray-100 sm:px-3 sm:py-2 sm:rounded-md  font-medium">
+          <a className="lg:hover:text-black lg:hover:bg-gray-100 lg:px-3 lg:py-2 lg:rounded-md  font-medium">
             Discord
           </a>
         </Link>
         <Link href="/about">
-          <a className="hover:text-black hover:bg-gray-100 sm:px-3 sm:py-2 sm:rounded-md  font-medium">
+          <a className="lg:hover:text-black lg:hover:bg-gray-100 lg:px-3 lg:py-2 lg:rounded-md  font-medium">
             About
           </a>
         </Link>
