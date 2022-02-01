@@ -7,9 +7,16 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div className="sm:mx-10 text-mezo-white">
+      {/* Page Description for SEO */}
       <Head>
         <title>Mezo Management | Home</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="At Mezo Management, we bridge the gap between brands and content
+          creators and help brands and creators alike find quality
+          partnerships"
+        />
         <link rel="shortcut icon" href="/images/mezo-logo-resize.png" />
       </Head>
       {/* Header */}
